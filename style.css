@@ -1,0 +1,2029 @@
+body {
+  padding: 0px;
+  margin: 0px;
+
+  width: 100vw;
+  border: 1px solid red;
+  overflow-x: hidden;
+}
+
+
+
+header {
+  background: #1c1c1c;
+  /* border:1px solid white; */
+  display: flex;
+  align-items: center;
+  max-height: 35px;
+  height: 100%;
+  justify-content: flex-end;
+  /* padding-bottom:35px; */
+  /* position:fixed; */
+}
+
+header>ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header>button {
+  width: 6%;
+  height: auto;
+  background: indianred;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.font {
+  color: black;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 50%;
+  /* height: 17px; */
+  /* border:1px solid black; */
+  width: 19px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#theme1,
+#theme2 {
+  color: white;
+
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+ul>li {
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/*ul > li > img {
+  height: 21px;
+  cursor: pointer;
+}*/
+#theme1 {
+  border: 1px solid white;
+  background-color: indianred;
+}
+
+#theme2 {
+  border: 1px solid white;
+}
+
+#form1>button {
+  height: 35px;
+  border-radius: 5px;
+  padding-block: 0px !important;
+  padding-inline: 12px !important;
+  background-color: orangered;
+  color: white;
+  border: none;
+  margin-right: 23px;
+}
+
+#form1>input {
+  height: 29px;
+  width: 300px;
+  margin-right: -4px;
+}
+
+#myVideo {
+  width: 100%;
+  z-index: 2;
+}
+
+#nav {
+  z-index: 1;
+  display: flex;
+  position: absolute;
+  top: 35px;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 30px 28px 25px black inset;
+}
+
+#nav>ul {
+  display: flex;
+  border-bottom: 1px solid white;
+  align-items: flex-end;
+  height: 53px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 0px;
+}
+
+#hamburger {
+
+  display: none;
+}
+
+#nav>ul>li {
+  color: white;
+  /* border:1px solid white; */
+  padding: 13px;
+  /* margin-top:-10px; */
+
+
+}
+
+#img2 {
+  height: 100px;
+  padding-right: 20px;
+}
+
+#nav_bttn {
+  margin-top: -55px;
+  padding-left: 35px;
+}
+
+#nav_bttn>button {
+  background-color: lightseagreen;
+  cursor: pointer;
+  position: relative;
+  color: whitesmoke;
+  /* height: 30px; */
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  padding: 8px;
+}
+
+#ayodhya {
+  background-color: #e4f4fb;
+  margin-top: -28px;
+  position: relative;
+}
+
+#ayodhya>p {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding: 50px;
+}
+
+#ayodhya>p>a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  background-color: orangered;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+#ayodhya>div {
+  display: flex;
+}
+
+#ayodhya>div>img {
+  width: 70%;
+  height: auto;
+}
+
+#ayodhya_img {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-bottom: 45px;
+}
+
+#leader {
+  text-align: center;
+  display: grid;
+  width: 200px;
+}
+
+#leader>div>img {
+  border-radius: 50%;
+  border: 3px solid #ffcf52;
+  /* height: 100px; */
+  width: 70%;
+  height: auto;
+  margin-top: 15px;
+}
+
+#leader>div>h3 {
+  margin-top: 3px;
+}
+
+#leader>div {
+  margin-bottom: 5px;
+  background-color: white;
+}
+
+#design {
+  width: 99.9%;
+  /* border:1px solid black; */
+  margin-top: -140px;
+}
+
+#design>img {
+  width: 100%;
+}
+
+#upmap {
+  background-image: url("https://www.uptourism.gov.in/img/mapbg.jpg");
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+#upmap>div>h1 {
+  font-family: "Kaushan Script", cursive;
+
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+#upmap>div>p {
+  margin-top: -30px;
+  text-align: center;
+  font-size: 17px;
+}
+
+#upmap>div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#map {
+  display: flex;
+}
+
+#map>div {
+  width: 32%;
+
+  width: 50%;
+}
+
+#map>div>h1,
+#map>div>p,
+#map>div>table {
+  text-align: left;
+}
+
+#map>div>h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 32px;
+  /* height: 55px; */
+  width: 95%;
+  /* border:1px solid black; */
+}
+
+#table>table {
+  width: 100%;
+  border-spacing: 5px;
+  text-align: left;
+}
+
+#map>div>p {
+  margin-top: -25px;
+  font-size: 20px;
+  text-align: justify;
+  /* border:1px solid black; */
+  /* height: 125px; */
+  padding: 2% 0;
+  width: 95%;
+}
+
+#table {
+  margin-top: -15px;
+  width: 95%;
+}
+
+#table>table>tbody>tr>td {
+  background-color: lightgrey;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+/* carousel start */
+
+#carousel {
+  width: 95%;
+  margin-top: 10px;
+}
+
+/* carousel end */
+
+#taj {
+  background-image: url("resources/happeningbg.png");
+  background-size: cover;
+  /* border: 1px solid white; */
+  /* height: 685px; */
+  /* border:1px solid black; */
+  padding-bottom: 38%;
+  position: relative;
+  padding-top: 50px;
+}
+
+#taj>p {
+  margin-top: -10px;
+  padding-left: 124px;
+  font-size: 15px;
+  color: grey;
+}
+
+#taj>h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 130px;
+}
+
+#taj>button {
+  border: none;
+  background-color: indianred;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 5px;
+  position: relative;
+  top: -15%;
+  left: 87%;
+  cursor: pointer;
+
+  /* border:none; */
+}
+
+#design2>img {
+  width: 99.9%;
+  margin-top: -40px;
+  background-color: #eef4fa;
+  padding-top: 0px;
+}
+
+#buddha {
+  background-color: #eef4fa;
+  margin-top: -40px;
+}
+
+#buddha>h1 {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  font-size: 43px;
+}
+
+#buddha>p {
+  text-align: center;
+  font-size: 15px;
+  margin-top: -25px;
+}
+
+#buddha>div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* #month1{
+    border:1px solid black;
+    display:grid;
+} */
+#month2,
+#month1 {
+  display: grid;
+  padding: 0px 40px;
+}
+
+#month1>div,
+#month2>div {
+  /* height: 45px; */
+  margin: 3%;
+  width: 236px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-top: 15px;
+  border: 5px solid indianred;
+  color: white;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+#jan {
+  background-image: url("resources/jan.jpg");
+}
+
+#feb:hover,
+#mar:hover,
+#apr:hover,
+#may:hover,
+#june:hover,
+#july:hover,
+#jan:hover,
+#aug:hover,
+#sep:hover,
+#oct:hover,
+#nov:hover,
+#dec:hover {
+
+
+  background-image: url('resources/btn-hover.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+#feb {
+  background-image: url("resources/feb.jpg");
+}
+
+#mar {
+  background-image: url("resources/mar.jpg");
+}
+
+#apr {
+  background-image: url("resources/april.jpg");
+}
+
+#may {
+  background-image: url("resources/may.jpg");
+}
+
+#june {
+  background-image: url("resources/june.jpg");
+}
+
+#july {
+  background-image: url("resources/july.jpg");
+}
+
+#aug {
+  background-image: url("resources/aug.jpg");
+}
+
+#sep {
+  background-image: url("resources/sep.jpg");
+}
+
+#oct {
+  background-image: url("resources/oct.jpg");
+}
+
+#nov {
+  background-image: url("resources/nov.jpg");
+}
+
+#dec {
+  background-image: url("resources/dec.jpg");
+}
+
+#buddha_center>img {
+  box-shadow: 0px 0px 8px #888888;
+  border-radius: 5px;
+}
+
+#buddha_text {
+  display: flex;
+  margin-top: -58px;
+
+  font-size: 25px;
+  /* color: white; */
+  /* background-color: black; */
+  /* padding: -1px 0px; */
+}
+
+#buddha_text1 {
+  background-color: black;
+  color: yellow;
+  margin-right: 0px;
+  padding-right: 4px;
+  border-right: 1px solid white;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+}
+
+#buddha_text2 {
+  background-color: black;
+  color: white;
+  padding-left: 3px;
+  width: 77.5%;
+  text-align: center;
+  padding: 5px;
+}
+
+#buddha_center {
+  border-radius: 5px;
+}
+
+#design3 {
+  background-image: url("resources/tribg1.png");
+  /* border:1px solid black; */
+  /* height: 144px; */
+  padding: 5% 0;
+  position: relative;
+}
+
+#tiger_video {
+  margin-top: -80px;
+}
+
+#card1 {
+  background-image: url("resources/tripupbg.jpg");
+  background-position: bottom;
+  width: 32%;
+  border-radius: 30px;
+  background-position: center right;
+}
+
+#card1>h1 {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  color: indianred;
+  font-size: 38px;
+}
+
+#card1>p {
+  text-align: left;
+  margin-left: 50px;
+  font-size: 20px;
+  margin-right: 34px;
+}
+
+#card1_p {
+  color: grey;
+}
+
+#card2 {
+  width: 32%;
+  color: white;
+  width: 50%;
+}
+
+#card2>h1 {
+  font-family: "Kaushan Script", cursive;
+  color: indianred;
+  text-align: center;
+  font-size: 38px;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -643px;
+}
+
+#card2>div {
+  display: flex;
+  text-align: center;
+}
+
+#table2 {
+  text-align: center;
+  width: 100%;
+  border-spacing: 70px;
+  margin-top: -31px;
+  position: relative;
+
+}
+
+#table2>tbody>tr>td>a {
+  text-decoration: none;
+  color: white;
+}
+
+#table2>tbody>tr>td {
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#tiger_img {
+  margin-left: 60px;
+  margin-top: -200px;
+}
+
+#design4 {
+  width: 99.9%;
+  margin-top: -30px;
+}
+
+.new_button {
+  background-color: indianred;
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.owl-dot {
+  position: relative;
+  top: 0% !important;
+  height: 10px;
+  width: 10px;
+  background-color: lightgrey;
+  border-radius: 5px !important;
+  margin-bottom: 10px !important;
+  margin-left: 10px;
+  border: 1px solid black !important;
+}
+
+.active {
+  background-color: grey !important;
+}
+
+#subscribe {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f6f3ea;
+  margin-top: -6px;
+  text-align: center;
+}
+
+.subscribe_card {
+  /* f */
+  height: auto;
+  width: 25%;
+  margin: 166px 0px;
+  border: 5px solid indianred;
+  border-radius: 10px;
+  background-position: center;
+  transform: scale(1, 1);
+  transition: transform 0.3s ease;
+  background-size: cover;
+  display: block;
+  overflow: hidden;
+}
+
+.subscribe_card:hover {
+  background-position: center;
+
+  transform: scale(1.05, 1.05);
+  width: 25%;
+
+}
+
+#subscribe_center {
+  margin: 95px 0px;
+}
+
+#Subscribe_card1 {
+  background-image: url("resources/business-img.jpg");
+  /* background-repeat: no-repeat; */
+  box-shadow: 56px -52px 283px black inset;
+}
+
+#Subscribe_card2 {
+  background-image: url("resources/business-taz.jpg");
+  /* background-repeat: no-repeat; */
+  box-shadow: 56px -52px 283px black inset;
+}
+
+#Subscribe_card1>p {
+  font-size: 30px;
+}
+
+#Subscribe_card2>p {
+  color: white;
+  font-size: 30px;
+  margin-top: 90px;
+}
+
+#p1 {
+  color: white;
+  margin: 0px 87px;
+  margin-top: 50px;
+}
+
+#p2 {
+  color: yellow;
+  margin: 0px 65px;
+  margin-top: 12px;
+}
+
+#Subscribe_card1_a1 {
+  text-decoration: none;
+  color: white;
+
+  padding: 10px;
+  background-color: indianred;
+  border: none;
+  text-decoration: none;
+
+  margin: 26px !important;
+  display: block;
+  width: 29%;
+  margin-left: 122px !important;
+}
+
+#Subscribe_card1_a2 {
+  color: white;
+  border: 1px solid indianred;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+#Subscribe_card1_a2>img {
+  margin-right: 3px;
+  /* height: 25px; */
+  margin-bottom: -8px;
+  /* border:1px solid black; */
+  width: 8%;
+}
+
+#Subscribe_card1>div {
+  margin-top: 210px;
+  height: auto;
+  padding: 18px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#Subscribe_card2>a {
+  text-decoration: none;
+  color: white;
+
+  padding: 10px;
+  background-color: indianred;
+  border: none;
+  text-decoration: none;
+  margin: 26px !important;
+  display: block;
+  width: 29%;
+  margin-left: 122px !important;
+}
+
+#subscribe_center>h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 35px;
+  margin-top: 0px;
+}
+
+#subscribe_center>div {
+  display: grid;
+}
+
+#subscribe_center>div>p {
+  position: relative;
+  top: -336px;
+  font-size: 20px;
+}
+
+#subscribe_center>div>input {
+  position: relative;
+  top: -330px;
+  border: none;
+  width: 45%;
+  left: 28%;
+  font-size: 17px;
+  padding: 0px 22px;
+}
+
+#subscribe_center>div>a {
+  position: relative;
+  top: -330px;
+  color: white;
+  padding: 10px;
+  background-color: indianred;
+  text-decoration: none;
+  margin: 26px !important;
+  display: block;
+  width: 29%;
+  /* margin-left: 122px !important; */
+  border-radius: 10px;
+  border: none;
+  left: 27%;
+}
+
+#subscribe_center>img:hover {
+  rotate: 360deg;
+
+  transition: rotate 20s;
+  animation: rotate 10s infinite linear;
+}
+
+#cinema {
+  display: flex;
+  justify-content: center;
+}
+
+#cinema>div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  /* padding: 59px; */
+  padding: 20px 0;
+  justify-content: space-around;
+  font-size: 24px;
+  text-align: center;
+}
+
+#blog {
+
+  text-align: center;
+}
+
+#blog>div>h1 {
+
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  font-size: 45px;
+}
+
+#blog ul {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#blog ul li {
+  box-shadow: inset 0 0 0 4px red;
+  padding-bottom: 0px;
+}
+
+#design5>img {
+
+  background-color: rgb(255, 230, 200);
+  width: 99.9%;
+}
+
+#iframe_section {
+  /* border: 1px solid black; */
+  margin-top: -6px;
+  background: linear-gradient(to bottom, rgba(255, 230, 200, 1) 0%, rgba(255, 230, 200, 1) 38%, rgba(120, 169, 221, 1) 100%);
+}
+
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px -4px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#iframe_section>div>ul>li>a {
+  padding: 12px !important;
+  font-size: 30px;
+  border-radius: 10px;
+  width: 40px;
+
+}
+
+#iframe_section>div>ul>li {
+  padding: 0px;
+  margin: 0px;
+}
+
+#iframe_section {
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#iframe_section>div {
+  width: 50%;
+
+}
+
+#iframe_section>div>h1 {
+
+  font-family: "Kaushan Script", cursive;
+  font-size: 35px;
+  text-align: center;
+}
+
+#iframe_section>div>iframe {
+
+
+  margin-left: 100px;
+  width: 70%;
+  min-height: 60%;
+  /* border:1px solid black; */
+
+}
+
+#iframe_section>div>ul {
+  position: relative;
+
+
+  top: -49%;
+  left: 25px;
+}
+
+#iframe_section>div>div {
+  border: 5px solid blue;
+  background-color: white;
+  width: 70%;
+  margin-left: 115px;
+  height: 60%;
+}
+
+#iframe_section>div>div>div>img {
+  border: 5px solid blue;
+  position: relative;
+  left: -173px;
+  top: -243px;
+
+}
+
+#iframe_section>div>div>h3 {
+
+  position: relative;
+
+
+  left: 162px;
+  top: 57px;
+  width: 65%;
+}
+
+#iframe_section>div>div>div>a {
+
+  color: white;
+  padding: 10px;
+  background-color: indianred;
+  border: none;
+  text-decoration: none;
+  margin: 11px !important;
+  display: block;
+  width: 16%;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#iframe_section>div>div>p {
+
+  width: 65%;
+  position: relative;
+  left: 162px;
+  top: 45px;
+  font-size: 18px;
+  text-align: justify;
+
+}
+
+#iframe_bttn {
+
+  display: flex;
+  justify-content: flex-end;
+
+  z-index: 5;
+
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: -132px;
+}
+
+#design6 {
+  width: 100%;
+
+  margin-top: -87px;
+}
+
+#design6>img {
+  width: 99.8%;
+}
+
+#carousel_full {
+
+  width: 80.5%;
+  margin-left: 11%;
+  border: none;
+}
+
+
+
+.carousel_fullin>div>button>span {
+  display: none !important;
+
+}
+
+
+#design7>img {
+  width: 100%;
+}
+
+#footer {
+  display: flex;
+  background-color: #575f68;
+  justify-content: space-around;
+  margin-top: -6px;
+
+}
+
+#footer>div>h1 {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  color: #ffeac1;
+
+  letter-spacing: 2px;
+}
+
+#footer>div>ul {
+  font-size: 20px;
+  color: white;
+
+}
+
+#footer>div>ul>li {
+
+  list-style-type: none;
+
+}
+
+#footer>div>ul>li>img {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #4c545e;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+footer>p {
+  width: 32%;
+}
+
+#footer_img {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+
+#sidebttn {
+  position: fixed;
+  right: -25px;
+  top: 40vh;
+  background-color: #e96222;
+  color: white;
+  transform: rotate(90deg);
+  width: 122px;
+  font-size: 24px;
+  border-radius: 10px;
+  border: none;
+  z-index: 5;
+  cursor: pointer;
+}
+
+#table2>tbody>tr>td:hover {
+  color: white;
+  background-color: indianred;
+  box-shadow: 0px 0px 10px #1c1c1c;
+  border: 3px solid indianred;
+}
+
+#footer>div>ul>li {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+#footer>div>ul>li::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: white;
+  transition: width .5s;
+  /* border:1px solid black; */
+}
+
+#footer>div>ul>li:hover::after {
+  width: 100%;
+}
+
+/* chat icon */
+
+
+
+.chat {
+  display: flex;
+  position: fixed;
+  right: -0.5%;
+  top: 78vh;
+  z-index: 5;
+}
+
+.background {
+  background-color: rgb(34, 152, 23);
+  border-radius: 50%;
+  box-shadow: 0 2.1px 1.3px rgba(0, 0, 0, 0.044),
+    0 5.9px 4.2px rgba(0, 0, 0, 0.054), 0 12.6px 9.5px rgba(0, 0, 0, 0.061),
+    0 25px 20px rgba(0, 0, 0, 0.1);
+  /* height: 80px; */
+  /* border:1px solid black; */
+  min-height: 80px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 80px;
+}
+
+.chat-bubble {
+  cursor: pointer;
+  position: relative;
+}
+
+.bubble {
+  transform-origin: 50%;
+  transition: transform 500ms cubic-bezier(0.17, 0.61, 0.54, 0.9);
+}
+
+.line {
+  fill: none;
+  stroke: rgb(255, 255, 255);
+  stroke-width: 2.75;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line1 {
+  stroke-dasharray: 60 90;
+  stroke-dashoffset: -20;
+}
+
+.line2 {
+  stroke-dasharray: 67 87;
+  stroke-dashoffset: -18;
+}
+
+.circle {
+  fill: rgb(255, 255, 255);
+  stroke: none;
+  transform-origin: 50%;
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.active .bubble {
+  transform: translateX(24px) translateY(4px) rotate(45deg);
+}
+
+.active .line1 {
+  stroke-dashoffset: 21;
+}
+
+.active .line2 {
+  stroke-dashoffset: 30;
+}
+
+.active .circle {
+  transform: scale(0);
+}
+
+/* chat icon end */
+
+/* dropdown start */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  color: black;
+  /* min-width: 160px; */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 0px 0px;
+  z-index: 1;
+  width: 600%;
+  margin-top: 15px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  /* border:1px solid black; */
+}
+
+#nav>ul>li:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown>div>p>img {
+
+  width: 50px;
+  height: auto;
+  margin: 10px;
+  /* border:1px solid black; */
+}
+
+.dropdown>div>p {
+
+  background-color: indianred;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0%;
+
+}
+
+.dropdown-content>div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.dropdown-content>div>ul>li {
+  border-bottom: 1px solid black;
+  width: 100%;
+  list-style-type: square;
+  margin: 5px;
+  padding: 5px;
+}
+
+.dropdown-content>div>ul>li:hover {
+  color: indianred;
+}
+
+.ddn2 {
+  left: -100%;
+}
+
+.ddn3 {
+  left: -210%;
+}
+
+.ddn4 {
+  left: -210%;
+  width: 460%;
+}
+
+/* dropdown end */
+
+/* ===========================================================================Media queries start */
+/* ==========================================================================================1200px */
+@media only screen and (max-width:1200px) {
+
+  /* *{
+    border:1px solid black;
+  } */
+  /* #table2{
+    border-spacing: 50px;
+  } */
+  #ayodhya>p {
+    margin-top: 40px;
+  }
+
+  #cards {
+    margin-top: -592px
+  }
+
+  #tiger_img {
+    margin-left: 51px;
+  }
+
+  #design4 {
+    margin-top: -86px;
+  }
+
+  #blog ul {
+    padding-left: 0px;
+  }
+
+  #month2,
+  #month1 {
+    padding: 0 30px;
+  }
+
+  #table2 {
+    border-spacing: 60px;
+  }
+
+}
+
+/* ====================================================================================1024px */
+@media only screen and (max-width:1024px) {
+
+  #nav>ul>li {
+    padding: 0px;
+  }
+
+  #img2 {
+    padding-right: 0px;
+  }
+
+  #month1>div,
+  #month2>div {
+    width: 100%;
+  }
+
+  #cards {
+    margin-top: -47%;
+  }
+
+  #tiger {
+    background-image: url('resources/background.jpg');
+    background-position: bottom;
+    background-repeat: repeat-x;
+  }
+
+  #card1 {
+    width: 30%;
+  }
+
+  #card2 {
+    width: 62%;
+  }
+
+  #tiger_img {
+    margin-left: 23px;
+    width: 32%;
+    /* z-index: 333 !important;
+    position:relative; */
+
+  }
+
+  #map>div>img {
+    width: 100%;
+  }
+
+  #subscribe_center {
+    margin-top: 16%;
+  }
+
+  #p1 {
+    margin: 0px;
+    margin-top: 30%;
+  }
+
+  #p2 {
+    margin: 0px;
+    margin-top: 40%;
+  }
+
+  #Subscribe_card1_a1 {
+    margin-left: 27% !important;
+  }
+
+  #Subscribe_card2>a {
+    margin-left: 30% !important;
+  }
+
+  #cinema>div>img {
+    width: 50%;
+    height: auto;
+  }
+
+  .rainbow>ul>li>img {
+    width: 100%;
+  }
+
+  #iframe_section>div>div>div>img {
+    width: 70%;
+    left: -150px;
+    top: -295px;
+  }
+
+  #iframe_section>div>div>h3 {
+    left: 120px;
+  }
+
+  #iframe_section>div>div>p {
+    left: 120px;
+  }
+
+  #iframe_section>div>ul>li>a {
+    width: 5%;
+    font-size: 23px;
+  }
+
+  #month1>div,
+  #month2>div {
+    font-size: 1.2rem;
+  }
+
+  #card2>h1,
+  #card1>h1 {
+    font-size: 2rem;
+  }
+
+  #card1>p {
+    margin: 2% 5%;
+  }
+
+  #card1 {
+
+    height: 28rem;
+
+  }
+
+}
+
+/* ==============================================================================================900px */
+@media only screen and (max-width:900px) {
+
+  #nav>img {
+
+    width: 25%;
+
+  }
+
+  #img2 {
+    width: 7rem !important;
+  }
+
+  #ayodhya {
+    margin-top: 0.4rem;
+  }
+
+  #buddha>div {
+    display: grid;
+  }
+
+  #month2,
+  #month1 {
+    padding: 0px;
+  }
+
+  #month1>div,
+  #month2>div {
+    padding-top: 0px;
+    padding: 12px;
+    width: 86%;
+    font-size: 1.6rem;
+  }
+
+  #design3 {
+    padding: 8% 0;
+  }
+
+  #cards {
+    justify-content: space-around;
+
+  }
+
+  #table2 {
+    border-spacing: 5px;
+    margin-top: 5%;
+  }
+
+  #table2>tbody>tr>td {
+    width: 33%;
+
+  }
+
+  #subscribe {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subscribe_card {
+    width: 90%;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+
+
+  }
+
+  #Subscribe_card1_a1 {
+    margin-left: 163px !important;
+  }
+
+  #subscribe_center {
+    width: 90%;
+    margin: 10% 0px;
+  }
+
+  #Subscribe_card2 {
+    padding: 30% 0;
+  }
+
+  #Subscribe_card2>a {
+    margin-left: 35% !important;
+  }
+
+  #cinema {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #cinema>div {
+    width: 100%;
+  }
+
+  #cinema>div>img {
+    width: 25%;
+  }
+
+  #iframe_section {
+    display: grid;
+  }
+
+  #iframe_section>div {
+    width: 100%;
+  }
+
+  #iframe_section>div>iframe {
+    margin-left: 10%;
+    width: 80%;
+    min-height: 70%;
+  }
+
+  #iframe_section>div>ul>li>a {
+    font-size: 2rem;
+  }
+
+  #iframe_section>div>ul {
+    top: -56%;
+    width: 70%;
+  }
+
+  #iframe_section>div>div {
+    margin-left: 180px;
+  }
+
+  #iframe_section>div>div>div>img {
+    width: 50%;
+    top: -218px;
+  }
+
+  #iframe_section>div>div>p {
+    left: 30%;
+  }
+
+  #iframe_section>div>div>h3 {
+    left: 30%;
+  }
+
+  #design6 {
+    margin-top: -68px;
+  }
+
+
+}
+
+/* ================================================================================================768px */
+@media only screen and (max-width:768px) {
+
+  /* *{
+    border:1px solid black;
+  } */
+  header>ul>li>img {
+    width: 90%;
+  }
+
+  header>button {
+    width: 10%;
+    margin: 2px;
+  }
+
+  #form1>input {
+    width: 60%;
+  }
+
+  #nav>ul {
+    display: none;
+
+  }
+
+  #hamburger {
+    display: block;
+    width: 7%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 6%;
+
+  }
+
+  #hamburger>img {
+    display: block;
+
+    width: 100%;
+  }
+
+  #nav>img {
+    width: 27%;
+  }
+
+  #map {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #map>div>p {
+    width: 95%;
+
+  }
+
+  #map>div>h1 {
+    width: 95%;
+  }
+
+  #footer {
+    display: grid;
+  }
+
+  footer {
+    display: inline-grid;
+    padding: 20px;
+    place-items: center;
+  }
+
+  #footer_img {
+    width: 200px;
+  }
+
+  footer>p {
+    width: 62%;
+  }
+
+
+
+
+}
+
+/* =====================================================================================600px */
+@media only screen and (max-width:600px) {
+  /* * {
+    border: 1px solid black;
+  } */
+
+  header>ul>li>img {
+    width: 100%;
+  }
+
+  #form1>input {
+    width: 50%;
+  }
+
+  #hamburger {
+    margin-bottom: 10%;
+  }
+
+  #ayodhya>div {
+    display: grid;
+  }
+
+  #ayodhya>div>img {
+    width: 100%;
+  }
+
+  #leader {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #map>div {
+    width: 70%;
+  }
+
+  #cards {
+    display: grid;
+  }
+
+  #card1 {
+    width: 95%;
+    margin-top: 10%;
+  }
+
+  #tiger {
+    background-position: top;
+    background-repeat: repeat-y;
+  }
+
+  #tiger_video {
+    margin-top: 90%;
+  }
+
+  #cards {
+    margin-top: -148%;
+  }
+
+  #card2 {
+    width: 95%;
+    margin-top: 10%;
+  }
+
+  #table2>tbody>tr>td {
+    padding: 0px;
+  }
+
+  #tiger_img {
+    position: relative;
+    top: 2rem;
+    width: 85%;
+    margin-left: 8%;
+    top: -23rem;
+  }
+
+  #card2>h1 {
+    margin-top: 2%;
+    margin-bottom: -3%;
+  }
+
+  #design4 {
+    position: relative;
+    top: -1.5rem;
+  }
+
+  #subscribe {
+    margin-top: -32px;
+    padding: 5%;
+    place-items: center;
+  }
+
+  #iframe_section>div>div {
+    margin-left: 20%;
+  }
+
+  #iframe_section>div>div>div>img {
+    left: -23%;
+  }
+
+  #month1 {
+    margin-right: 9%;
+    margin-left: 9%;
+  }
+
+  #buddha_center>img {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  #buddha_center {
+    display: grid;
+    place-items: center;
+  }
+
+  #buddha_text {
+    width: 90%;
+  }
+
+  #cards {
+    place-items: center;
+  }
+
+  #subscribe_center>img {
+    width: 100%;
+  }
+
+  #subscribe_center>div>p {
+    top: -331%
+  }
+
+  #subscribe_center>div>input {
+    top: -300px;
+    padding: 0px;
+    padding-left: 10px;
+  }
+
+  #subscribe_center>div>a {
+    top: -306px;
+  }
+
+  #iframe_section>div>ul>li>a {
+    width: 10%;
+  }
+
+  #iframe_section>div>ul {
+    left: -22px;
+  }
+
+  #iframe_section>div>div>p {
+    font-size: 1rem;
+  }
+
+  #iframe_section>div>div>div>img {
+    margin: -5px;
+  }
+
+  #design6 {
+    margin-top: -35px;
+  }
+
+
+
+
+}
+
+/* ========================================================================================360px */
+@media only screen and (max-width:360px) {
+
+  /* *{
+    border:1px solid black;
+  } */
+  .font {
+    display: none;
+  }
+
+  header>button {
+    width: 20%;
+  }
+
+  header>ul>li>img {
+    padding: 10px;
+  }
+
+  #nav {
+    box-shadow: none;
+    top: 35px;
+  }
+
+  #nav>img {
+    width: 40%;
+    max-height: 100px;
+    height: 100%;
+  }
+
+  #hamburger {
+    width: 12%;
+    margin-bottom: 17%;
+  }
+
+  #img2 {
+    display: none;
+  }
+
+  #nav_bttn {
+    padding-left: 5px;
+    margin-top: -49px;
+  }
+
+  #ayodhya>p>a {
+    font-size: 1rem;
+  }
+
+  #ayodhya>p {
+    padding: 0px;
+  }
+
+  #leader {
+    display: grid;
+  }
+
+  #leader>div {
+    width: 100%;
+  }
+
+  #taj>p {
+    padding-left: 10px;
+  }
+
+  #taj>button {
+    left: 3%;
+  }
+
+  #design2>img {
+    margin-top: -11px;
+  }
+
+  #table2>tbody>tr>td {
+    font-size: 13px;
+  }
+
+  #design4 {
+    top: 0.5rem;
+  }
+
+  #subscribe {
+    margin-top: 0px;
+  }
+
+  #Subscribe_card1_a1 {
+    margin-left: 32% !important;
+  }
+
+  #subscribe_center>div>p {
+    font-size: 1rem;
+    top: -308%;
+  }
+
+  #subscribe_center>div>input {
+    top: -230px;
+  }
+
+  #subscribe_center>div>a {
+    left: 23%;
+    top: -249px;
+  }
+
+  #cinema>div>h1 {
+    font-size: 20px;
+  }
+
+  #cinema>div>img {
+    width: 31%;
+  }
+
+  #iframe_section>div>ul {
+    left: -37px;
+  }
+
+  #iframe_section>div>div {
+    margin-left: 0px;
+    width: 97%;
+  }
+
+  #iframe_section>div>div>div>img {
+    left: 0%;
+    width: 60%;
+    margin: 0px;
+    top: 0%;
+  }
+
+  #iframe_section>div>div>p {
+    width: 50%;
+    left: 49%;
+  }
+
+  #iframe_section>div>div>h3 {
+    width: 50%;
+    left: 49%;
+  }
+
+  #iframe_section>div>div>div>img {
+    width: 45%;
+    top: -316px;
+
+  }
+
+  footer>p {
+    width: 95%;
+  }
+
+  #carousel_full {
+    margin-left: 0px;
+    /* width:100%; */
+    padding: 0 10px;
+  }
+
+  #ayodhya>p>a {
+    padding: 20px;
+  }
+
+  #ayodhya>p {
+    padding-top: 40px;
+  }
+
+  #ayodhya {
+    margin-top: -2rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

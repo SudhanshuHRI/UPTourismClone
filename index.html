@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Welcome to UP Tourism</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="resources/uplogo.png">
+  <!-- local css attach -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet" />
+  <!-- sweet alert -->
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+  </link>
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+  <header>
+    <ul>
+      <li>
+        <img src="resources/skiptocontent.png" onclick="window.scrollBy(0,1000)" />
+      </li>
+      <li>
+        <img src="resources/screen-reader.png"
+          onclick="window.location.href ='https://www.uptourism.gov.in/en/article/screen-reader-access' ">
+      </li>
+      <li onclick="window.location.href ='https://www.uptourism.gov.in/en/article/sitemap'"><img
+          src="resources/sitemap.png" /></li>
+      <li class="font" onclick="swalert()">A-</li>
+      <li class="font" onclick="swalert()">A</li>
+      <li class="font" onclick="swalert()">A+</li>
+      <li id="theme1" onclick="swalert()"><b>T</b></li>
+      <li id="theme2" onclick="swalert()"><b>T</b></li>
+    </ul>
+    
+    <button onclick="swalert()">हिन्दी संस्करण</button>
+    <form id="form1">
+      <input type="text" placeholder="Search.." name="search" />
+      <button type="submit" onclick="swalert()"><i class="fa fa-search"></i></button>
+    </form>
+  </header>
+  <section>
+    <video autoplay muted loop id="myVideo">
+      <source src="resources/tourism.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+    <div id="nav">
+      <img src="resources/uplogo_header.png" />
+      <div id="hamburger"><img src="resources/hamburger_white.png" ></div>
+      <!-- drop down start -->
+      <ul>
+        
+        <li onclick="swalert()">
+          <div class="dropdown">
+            <span>ABOUT US <i class="fa fa-caret-down"></i></span>
+            <div class="dropdown-content">
+              <div style="display:flex;">
+                <ul>
+                  <li>Organisational Structure</li>
+                  <li>Government Orders</li>
+                  <li>Documents</li>
+                  <li>UPSTDC</li>
+                  <li>On Going Projects</li>
+                </ul>
+                <ul>
+                  <li>Tourism Policy</li>
+                  <li>External Aided Projects</li>
+                  <li>Departmental Websites</li>
+                  <li>Department's Calender</li>
+                  <li>Discover Your Roots</li>
+                </ul>
+                <ul>
+                  <li>Tourism Offices</li>
+                  <li>Schemes</li>
+                  <li>Tender</li>
+                  <li>Holiday List 2022</li>
+                  <li>Right To Information</li>
+                </ul>
+
+              </div>
+              <p><img src="resources/tourismicon.png">A unique apportunity to explore Uttar
+                Pradesh</p>
+            </div>
+          </div>
+
+        </li>
+        <li onclick="swalert()">
+          <div class="dropdown">
+            <span>DESTINATION <i class="fa fa-caret-down"></i></span>
+            <div class="dropdown-content ddn2">
+              <div style="display:flex;">
+                <ul>
+                  <h3>Top Destination</h3>
+                  <li>Agra</li>
+                  <li>Mathura</li>
+                  <li>Ayodhya</li>
+                  <li>Varanasi</li>
+                  <li>Lucknow </li>
+                </ul>
+                <ul>
+                  <h3>Tourism Circuits</h3>
+                  <li>Buddha Circuit</li>
+                  <li>Bundelkhand Circuit</li>
+                  <li>Brij Circuit</li>
+                  <li>Awadh Circuit</li>
+                  <li>Ramayan Circuit</li>
+                </ul>
+                <ul>
+                  <h3>Wild Life Centuries</h3>
+                  <li>Dudhwa National Park</li>
+                  <li>Katarniya Park</li>
+                  <li>Chambal Wildlife</li>
+                  <li>Nawabgunj Bird</li>
+                  <li>Suhelwa Wildlife</li>
+                </ul>
+                <ul>
+                  <h3>More Catogaries</h3>
+                  <li>UNESCO recognised sites</li>
+                  <li>Haritage Sites</li>
+                  <li>MICE destinations</li>
+                  <li>Religious sites</li>
+                  <li>Weekend destinations</li>
+                </ul>
+
+              </div>
+              <p><img src="resources/tourismicon.png">Choose your tours, ride and hotels</p>
+            </div>
+          </div>
+
+
+
+        </li>
+        <li onclick="swalert()">
+
+          <div class="dropdown">
+            <span>
+              EXPERIENCE <i class="fa fa-caret-down"></i></span>
+            <div class="dropdown-content ddn3">
+              <div style="display:flex;">
+                <ul>
+                  <h3>Haritage</h3>
+                  <li>Taj Mahel</li>
+                  <li>Agra fort</li>
+                  <li>fatehpur sikri</li>
+                  <li>Rumi gate</li>
+                  <li>Imambara </li>
+                </ul>
+                <ul>
+                  <h3>Art & culture</h3>
+                  <li>Culture</li>
+                  <li>Art and Craft</li>
+                  <li>Music & Dance</li>
+                  <li>Litrature</li>
+                  <li>Musium</li>
+                </ul>
+                <ul>
+                  <h3>Wild Life Centuries</h3>
+                  <li>Dudhwa National Park</li>
+                  <li>Katarniya Park</li>
+                  <li>Chambal Wildlife</li>
+                  <li>Nawabgunj Bird</li>
+                  <li>Suhelwa Wildlife</li>
+                </ul>
+                <ul>
+                  <h3>More Catogaries</h3>
+                  <li>UNESCO recognised sites</li>
+                  <li>Haritage Sites</li>
+                  <li>MICE destinations</li>
+                  <li>Religious sites</li>
+                  <li>Weekend destinations</li>
+                </ul>
+
+              </div>
+              <p><img src="resources/tourismicon.png  ">Meet the locals and learn the secrets of
+                cities.</p>
+            </div>
+          </div>
+
+
+        </li>
+        <li onclick="swalert()">
+          <div class="dropdown">
+            <span>ONLINE BOOKING <i class="fa fa-caret-down"></i></span>
+            <div class="dropdown-content ddn4">
+              <div style="display:flex;">
+                <ul>
+                  <h3>Haritage</h3>
+                  <li>Taj Mahel</li>
+                  <li>Agra fort</li>
+                  <li>fatehpur sikri</li>
+                  <li>Rumi gate</li>
+                  <li>Imambara </li>
+                </ul>
+                <ul>
+                  <h3>Art & Culture</h3>
+                  <li>Culture</li>
+                  <li>Art and Craft</li>
+                  <li>Music & Dance</li>
+                  <li>Litrature</li>
+                  <li>Musium</li>
+                </ul>
+                <ul>
+                  <h3>Festivals</h3>
+                  <li>Taj Mahotsava</li>
+                  <li>Deepotsove</li>
+                  <li>Ranotsava</li>
+                  <li>Lucknow Mahotsava</li>
+                  <li>Others</li>
+                </ul>
+                <ul>
+                  <h3>Haritage Walks</h3>
+                  <li>Agra</li>
+                  <li>Prayagraj</li>
+                  <li>Lucknow</li>
+                  <li>Varanasi</li>
+                  <li>Kanpur</li>
+                </ul>
+
+              </div>
+              <p><img src="resources/tourismicon.png">Experience the natural wonders of Uttar
+                Pradesh – sublime and serene.</p>
+            </div>
+          </div>
+
+
+
+
+
+
+        </li>
+        <li onclick="swalert()"><span>CONTACT US </span></li>
+      </ul>
+      <!-- drop down end -->
+      <img id="img2" src="resources/uplogo.png" />
+    </div>
+
+    <div id="nav_bttn">
+      <button onclick="swalert()">Play Video</button>
+      <button onclick="swalert()">Pause Video</button>
+    </div>
+  </section>
+
+  <section id="ayodhya">
+    <p>
+      <a href="https://www.uptourism.gov.in/en/page/tourism-policy"><i class="fa fa-file-pdf-o"
+          style="font-size: 30px; color: white; margin: 3px"></i>New Tourism Policy 2022</a>
+    </p>
+    <div id="ayodhya_img">
+      <img src="resources/202304111730045145rt.jpg" />
+      <div id="leader">
+        <div>
+          <img src="resources/cm.jpg" />
+          <h3>Yogi Aditynath</h3>
+          <span>Hon'ble Chief Minister<br />
+            Uttar Pradesh</span>
+        </div>
+        <div>
+          <img src="resources/jaivir-singh.jpg" />
+          <h3>Shri Jaiveer Singh</h3>
+          <span>Hon'ble Cabinet Minister<br />
+            Department of Tourism<br />
+            Uttar Pradesh</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sidebttn" onclick="window.location.href='https://www.uptourism.gov.in/en/article/events'">
+    <p> <i class="fa fa-calendar"></i>Events</p>
+  </section>
+
+  <section id="design">
+    <img src="resources/explorebg2.png" />
+  </section>
+  <section id="upmap">
+    <div>
+      <h1>Discover Uttar Pradesh</h1>
+      <p>Click on any district to explore more details</p>
+    </div>
+    <div id="map">
+      <div>
+        <img src="resources/UP.png" onclick="swalert()">
+      </div>
+      <div>
+        <h1>Lucknow</h1>
+        <p>
+          Lucknow, the capital of Uttar Pradesh, lies in the middle of the
+          Heritage Arc. This bustling city, famed for its Nawabi era finesse
+          and amazing food, is a unique mix of the ancient and the modern. It
+          is home to extraordinary monuments depicting a fascinating blend of
+          ancient, colonial and oriental architecture.
+        </p>
+        <div id="table">
+          <table>
+            <tr>
+              <td><b>Area :</b> 2.528 sq. km.</td>
+              <td><b>Population :</b> 36,47,834 (2001 census)</td>
+            </tr>
+            <tr>
+              <td><b>Altitude :</b> 123 mts. above sea level.</td>
+              <td><b>Season : </b>October - March</td>
+            </tr>
+            <tr>
+              <td><b>Clothing (Summer) :</b> Cottons</td>
+              <td><b>Clothing (Winter) :</b> Woollens</td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- carousel start -->
+        <div id="carousel">
+          <div class="owl-carousel carousel1">
+            <div class="item">
+              <img src="resources/lko-1.jpg" />
+            </div>
+            <div class="item">
+              <img src="resources/lko-2.jpg" />
+            </div>
+            <div class="item">
+              <img src="resources/lko-3.jpg" />
+            </div>
+            <div class="item">
+              <img src="resources/lko-6.jpg" />
+            </div>
+            <div class="item">
+              <img src="resources/lko-7.jpg" />
+            </div>
+            <div class="item">
+              <img src="resources/lko-8.jpg" />
+            </div>
+            <div class="item">
+              <img src="resources/lko-1.jpg" />
+            </div>
+            <div class="item">
+              <img src="resources/lko-2.jpg" />
+            </div>
+            <div class="item">
+              <img src="resources/lko-3.jpg" />
+            </div>
+            <div class="item">
+              <img src="resources/lko-6.jpg" />
+            </div>
+            <div class="item">
+              <img src="resources/lko-7.jpg" />
+            </div>
+            <div class="item">
+              <img src="resources/lko-8.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <!-- carousel end -->
+        <button class="new_button" onclick="swalert()">View More</button>
+      </div>
+    </div>
+  </section>
+  <section id="taj">
+    <h1>Happening Now in #UmmazingUP</h1>
+    <p>Currently no latest Happening Now in<br />#UmmazingUP is available.</p>
+
+    <button onclick="swalert()">Archive</button>
+  </section>
+  <div id="design2">
+    <img src="resources/happeningbg2.png" />
+  </div>
+  <section id="buddha">
+    <h1>Festive Seasons of UP</h1>
+    <p>Checkout Festivals & Events of Uttar Pradesh</p>
+    <div>
+      <div id="month1">
+        <div id="jan" onclick='months(1)'>
+          <i class="fa fa-calendar"></i><span>&nbsp;&nbsp;JANUARY</span>
+        </div>
+        <div id="feb" onclick='months(2)'><i class="fa fa-calendar"></i>&nbsp;&nbsp;FEBRUARY</div>
+        <div id="mar" onclick="months(3)"><i class="fa fa-calendar"></i>&nbsp;&nbsp;MARCH</div>
+        <div id="apr" onclick="months(4)"><i class="fa fa-calendar"></i>&nbsp;&nbsp;APRIL</div>
+        <div id="may" onclick="months(5)"><i class="fa fa-calendar"></i>&nbsp;&nbsp;MAY</div>
+        <div id="june" onclick="months(6)"><i class="fa fa-calendar"></i>&nbsp;&nbsp;JUNE</div>
+      </div>
+      <div id="buddha_center">
+        <img id="months_event" src="resources/budthfestival.jpg" />
+        <div id="buddha_text">
+          <p id="buddha_text1">16 May,2022</p>
+          <p id="buddha_text2">Buddha Purnima, Kushinagar</p>
+        </div>
+      </div>
+      <div id="month2">
+        <div id="july" onclick="months(7)"><i class="fa fa-calendar"></i>&nbsp;&nbsp;JULY</div>
+        <div id="aug" onclick="months(8)"><i class="fa fa-calendar"></i>&nbsp;&nbsp;AUGUST</div>
+        <div id="sep" onclick="months(9)">
+          <i class="fa fa-calendar"></i>&nbsp;&nbsp;SEPTEMBER
+        </div>
+        <div id="oct" onclick="months(10)"><i class="fa fa-calendar"></i>&nbsp;&nbsp;OCTOBER</div>
+        <div id="nov" onclick="months(11)"><i class="fa fa-calendar"></i>&nbsp;&nbsp;NOVEMBER</div>
+        <div id="dec" onclick="months(12)"><i class="fa fa-calendar"></i>&nbsp;&nbsp;DECEMBER</div>
+      </div>
+    </div>
+  </section>
+  <section id="tiger">
+    <div id="design3"></div>
+    <div id="tiger_video">
+      <video autoplay muted loop id="myVideo">
+        <source src="resources/forest-water.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+    <div id="cards">
+      <div id="card1">
+        <h1>Trips to Uttar Pradesh</h1>
+        <p>Plan Your Customized Itinerary</p>
+        <p id="card1_p">Plan a perfect gateway with our trip planner.</p>
+      </div>
+      <div id="card2">
+        <h1>Plan Your Trip</h1>
+        <table id="table2">
+          <tr>
+            <td>
+              <a href="https://upstdc.co.in/website/default.aspx" target="_blank"> <img
+                  src="resources/hotel.png" /><br />
+                <span><b>Hotal Accommodation</b></span></a>
+            </td>
+            <td>
+              <a href="https://upstdc.co.in/website/default.aspx" target="_blank">
+                <img src="resources/pakage.png" /><br />
+                <span><b>Package Tour</b></span></a>
+            </td>
+            <td>
+              <a href="https://upstdc.co.in/website/default.aspx" target="_blank">
+                <img src="resources/oneday.png" /><br />
+                <span><b>One Day Tour</b></span></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://upstdc.co.in/website/default.aspx" target="_blank">
+                <img src="resources/bus.png" /><br />
+                <span><b>Taxi / Bus</b></span></a>
+            </td>
+            <td>
+              <a href="https://upstdc.co.in/website/default.aspx" target="_blank">
+                <img src="resources/tonga.png" /><br />
+                <span><b>Tonga Ride</b></span></a>
+            </td>
+            <td>
+              <a href="https://upstdc.co.in/website/default.aspx" target="_blank">
+                <img src="resources/guide.png" /><br />
+                <span><b>Authorised Travel Guides</b></span></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <img id="tiger_img" src="resources/tiger.png" />
+    <img id="design4" src="resources/tribg2 (1).png" />
+  </section>
+  <section id="subscribe">
+    <div id="Subscribe_card1" class="subscribe_card">
+      <p id="p1">Are You an Entrepreneur?</p>
+      <p id="p2" onclick="swalert()">Click here to Avail Incentives From us.</p>
+      <a href="https://www.uptourism.gov.in/en/page/tourism-policy" target="_blank" id="Subscribe_card1_a1">VIEW
+        MORE</a><br />
+      <div>
+        <a href="https://www.uptourism.gov.in/en/page/tourism-policy" id="Subscribe_card1_a2" target="_blank"><img
+            src="resources/investup-logo.png">INVEST UP</a>
+      </div>
+    </div>
+    <div id="subscribe_center">
+      <h1>Subscribe to Newsletter</h1>
+      <img src="resources/subscribe.png" />
+      <div>
+        <p>
+          Subscribe<br />
+          for regular updates
+        </p>
+        <input type="search" placeholder="Enter your Email ID" />
+        <a href="#" onclick="swalert()">SUBSCRIBE</a>
+      </div>
+    </div>
+    <div id="Subscribe_card2" class="subscribe_card">
+      <p>U.P. Pro-Poor Tourism Development Project</p>
+      <a href="https://www.uptourism.gov.in/en/post/up-pro-poor-tourism-development-project" target="_blank">VIEW
+        MORE</a>
+    </div>
+  </section>
+
+  <section id="cinema">
+    <div>
+      <img src="resources/cinematic-img.png" />
+      <h1>CINEMATIC TOURISM</h1>
+    </div>
+    <div>
+      <img src="resources/sustainable.png" />
+      <h1>UTTAR PRADESH ECOTOURISM</h1>
+    </div>
+  </section>
+
+  <section id="blog">
+    <div>
+      <h1>Experience the tourists’ paradise</h1>
+    </div>
+
+    <div class="rainbow">
+      <ul>
+        <li><img src="resources/blog.jpg" /></li>
+        <li><img src="resources/photos.jpg" /></li>
+        <li><img src="resources/vedios.jpg" /></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="design5">
+    <img src="resources/unfoldbg (1).png" />
+  </section>
+
+  <section id="iframe_section">
+    <div>
+      <h1>Connect with Us</h1>
+      <iframe
+        src="https://syndication.twitter.com/srv/timeline-profile/screen-name/uptourismgov?dnt=false&embedId=twitter-widget-0&features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&frame=false&hideBorder=false&hideFooter=false&hideHeader=false&hideScrollBar=false&lang=en&origin=https%3A%2F%2Fwww.uptourism.gov.in%2Fen&sessionId=7ed92695c2caf48da969e1afa86059c486e89a8b&showHeader=true&showReplies=false&transparent=false&widgetsVersion=aaf4084522e3a%3A1674595607486"></iframe>
+      <ul>
+        <li><a href="https://www.youtube.com/UttarPradeshTourism" target="_blank" class="fa fa-youtube"></a></li>
+        <li><a href="https://www.facebook.com/UttarPradeshTourism" target="_blank" class="fa fa-facebook"></a></li>
+        <li><a href="https://twitter.com/uptourismgov" target="_blank" class="fa fa-twitter"></a></li>
+        <li><a href="https://www.instagram.com/uttarpradeshtourism/?hl=en" target="_blank" class="fa fa-instagram"></a>
+        </li>
+        <li><a href="https://www.kooapp.com/profile/uptourismgov" target="_blank" class="fa fa-snapchat-ghost"></a></li>
+      </ul>
+    </div>
+    <div>
+      <h1>Proudly Recognized by the best</h1>
+      <div>
+        <h3>
+          UTTAR PRADESH RANKS FIRST IN TERMS OF ARRIVAL OF INDIAN TOURISTS
+        </h3>
+        <p>
+          Under the principled leadership of Hon'ble Chief Minister, Yogi
+          Adityanath, Uttar Pradesh tourism bagged the first position in the
+          country. In the year 2019, while on one hand the state holds the
+          first position in terms of visit of Indian tourists to Uttar
+          Pradesh, on other hand Uttar Pradesh achieved third position in
+          terms of Foreign tourists’ visit.
+        </p>
+        <div>
+          <img src="resources/proud-img-1.jpg" />
+        </div>
+        <div id="iframe_bttn" onclick="swalert()">
+          <a href="#" target="_blank">Previous</a>
+          <a href="#" target="_blank">Next</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="design6">
+    <img src="resources/connectbg.png" />
+  </div>
+
+  <section id="carousel_full">
+    <div class="owl-carousel owl-theme carousel_fullin">
+      <div class="item">
+        <img src="resources/202010131314005166saathi_131020.jpg" />
+      </div>
+      <div class="item">
+        <img src="resources/202010131314005166saathi_131020.jpg" />
+      </div>
+      <div class="item">
+        <img src="resources/202010131314005166saathi_131020.jpg" />
+      </div>
+      <div class="item">
+        <img src="resources/202010131314005166saathi_131020.jpg" />
+      </div>
+      <div class="item">
+        <img src="resources/202010131314005166saathi_131020.jpg" />
+      </div>
+      <div class="item">
+        <img src="resources/202010131314005166saathi_131020.jpg" />
+      </div>
+      <div class="item">
+        <img src="resources/202010131314005166saathi_131020.jpg" />
+      </div>
+      <div class="item">
+        <img src="resources/202010131314005166saathi_131020.jpg" />
+      </div>
+      <div class="item">
+        <img src="resources/202010131314005166saathi_131020.jpg" />
+      </div>
+      <div class="item">
+        <img src="resources/202010131314005166saathi_131020.jpg" />
+      </div>
+      <div class="item">
+        <img src="resources/202010131314005166saathi_131020.jpg" />
+      </div>
+      <div class="item">
+        <img src="resources/202010131314005166saathi_131020.jpg" />
+      </div>
+
+    </div>
+  </section>
+  <div id="design7">
+    <img src="resources/monuments-img.png" />
+  </div>
+  <section id="footer">
+    <div>
+      <h1>About Uttar Pradesh</h1>
+      <ul>
+        <li onclick="swalert()">
+          <img src="resources\icons8-circle-50.png" width="10px" />History
+        </li>
+        <li onclick="swalert()">
+          <img src="resources\icons8-circle-50.png" width="10px" />Key Facts
+        </li>
+        <li onclick="swalert()">
+          <img src="resources\icons8-circle-50.png" width="10px" />Geography
+        </li>
+        <li onclick="swalert()">
+          <img src="resources\icons8-circle-50.png" width="10px" />People &
+          Language
+        </li>
+        <li onclick="swalert()">
+          <img src="resources\icons8-circle-50.png" width="10px" />Administration & Economy
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h1>Share</h1>
+      <ul onclick="swalert()">
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />Photo
+          Gallery
+        </li>
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />Video
+          Gallery
+        </li>
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />360 Gallery
+        </li>
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />Posters
+        </li>
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />Radio
+          Jingles
+        </li>
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />Feedback
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h1>Policies</h1>
+      <ul onclick="swalert()">
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />Terms &
+          Conditions
+        </li>
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />Copyright
+          Policy
+        </li>
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />Privacy
+          Policy
+        </li>
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />Hyperlinking Policy
+        </li>
+        <li><img src="resources\icons8-circle-50.png" width="10px" />Help</li>
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />Disclaimer
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h1>Quick Links</h1>
+      <ul onclick="swalert()">
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />Press &
+          Media
+        </li>
+        <li><img src="resources\icons8-circle-50.png" width="10px" />Map</li>
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />Weather
+        </li>
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />E-Brochure
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h1>Other Info</h1>
+      <ul onclick="swalert()">
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />Emergency
+          Services
+        </li>
+        <li><img src="resources\icons8-circle-50.png" width="10px" />FAQs</li>
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />DOs &
+          Don’ts
+        </li>
+        <li>
+          <img src="resources\icons8-circle-50.png" width="10px" />Best Viewed
+          With
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section onclick="swalert()">
+    <div class="chat" onclick="this.classList.toggle('active')">
+      <div class="background"></div>
+      <svg class="chat-bubble" width="100" height="100" viewBox="0 0 100 100">
+        <g class="bubble">
+          <path class="line line1" d="M 30.7873,85.113394 30.7873,46.556405 C 30.7873,41.101961
+        36.826342,35.342 40.898074,35.342 H 59.113981 C 63.73287,35.342
+        69.29995,40.103201 69.29995,46.784744" />
+          <path class="line line2" d="M 13.461999,65.039335 H 58.028684 C
+        63.483128,65.039335
+        69.243089,59.000293 69.243089,54.928561 V 45.605853 C
+        69.243089,40.986964 65.02087,35.419884 58.339327,35.419884" />
+        </g>
+        <circle class="circle circle1" r="1.9" cy="50.7" cx="42.5" />
+        <circle class="circle circle2" cx="49.9" cy="50.7" r="1.9" />
+        <circle class="circle circle3" r="1.9" cy="50.7" cx="57.3" />
+      </svg>
+    </div>
+  </section>
+
+
+  <footer>
+    <img id="footer_img" src="resources/stqc-logo.png" onclick="swalert()">
+
+    <p>
+      This is the official website of Department of Tourism, Uttar Pradesh,
+      India. Content on this website is published and managed by Department of
+      Tourism, Uttar Pradesh, India. For any query regarding this website,
+      please contact the "Web Information Manager".
+    </p>
+
+    <ul>
+      <li>Last Updated On : Friday, 30, June 2023 | 10:04 PM</li>
+      <li>Powered by <b onclick="swalert()">OmniNet</b></li>
+      <li>Visitor No. :<b onclick="swalert()">1234567</b></li>
+    </ul>
+
+    <img src="https://jigsaw.w3.org/css-validator/images/vcss" onclick="swalert()">
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
